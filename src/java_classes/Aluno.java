@@ -44,7 +44,11 @@ public class Aluno extends Pessoa {
 	}
 	/*Fim ToString*/
 	
-	
+	@Override/*Identifica metodo sobreescrito*/
+	public boolean pessoaMaiorIdade() {
+		
+		return idade >= 21;
+	}
 	
 	
 	

@@ -57,5 +57,13 @@ public class Pessoa {
 	}
 	/*Fim Getters e Setters*/
 	
+	/*retorna true caso seja maior de 18 anos*/
+	public boolean pessoaMaiorIdade() {
+		return idade >= 18;
+	}
+	
+	public String msgMaiorIdade() {
+		return this.pessoaMaiorIdade()? "Pessoa maior idade": " Pessoa menor de idade ";
+	}
 	
 }
