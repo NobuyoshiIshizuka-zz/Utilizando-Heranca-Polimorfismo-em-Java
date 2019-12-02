@@ -1,7 +1,9 @@
 package java_classes;
 
+/*Classe Pai ou Classe Master ou Super-classe*/
 public class Pessoa {
 
+	/*Atributos da Classe Pessoa*/
 	protected String nome;
 	protected int idade;
 	protected String dataNascimento;

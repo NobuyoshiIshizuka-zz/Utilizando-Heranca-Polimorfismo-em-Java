@@ -34,6 +34,20 @@ public class Aluno extends Pessoa {
 	}
 	/*Fim Getters e Setters*/
 	
+	/*Inicio ToString*/
+	@Override
+	public String toString() {
+		return "Aluno [DataMatricula=" + DataMatricula + ", nomeEscola=" + nomeEscola + ", serieMatriculado="
+				+ serieMatriculado + ", disciplina=" + disciplina + ", nome=" + nome + ", idade=" + idade
+				+ ", dataNascimento=" + dataNascimento + ", registroGeral=" + registroGeral + ", numeroCpf=" + numeroCpf
+				+ ", nomeMae=" + nomeMae + ", nomePai=" + nomePai + "]";
+	}
+	/*Fim ToString*/
+	
+	
+	
+	
+	
 	
 }
 

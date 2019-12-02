@@ -27,6 +27,20 @@ public class Diretor extends Pessoa {
 	}
 	/*Fim Getters e Setters*/
 	
+	/*Inicio ToString*/
+	@Override
+	public String toString() {
+		return "Diretor [registroEducacao=" + registroEducacao + ", tempoDirecao=" + tempoDirecao + ", titulacao="
+				+ titulacao + ", nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento
+				+ ", registroGeral=" + registroGeral + ", numeroCpf=" + numeroCpf + ", nomeMae=" + nomeMae
+				+ ", nomePai=" + nomePai + "]";
+	}
+	/*Fim ToString*/
+	
+	
+	
+	
+	
 	
 
 }
